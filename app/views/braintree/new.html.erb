@@ -1,7 +1,7 @@
-<h1>Braintree#new</h1>
+<h1><%= link_to "Braintree#new", root_path %></h1>
 <p>Find me in app/views/braintree/new.html.erb</p>
 
-<div class="demo-frame">  
+<div class="demo-frame" data-turbolinks="false">  
 
 	<%= form_for :checkout_form, url: braintree_checkout_path, html: { id: "cardForm"} do |form| %>
 
